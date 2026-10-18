@@ -93,13 +93,13 @@
 
                 <!-- Desktop Navigation Links -->
                 <nav class="hidden lg:flex items-center space-x-7 text-sm font-medium text-charcoal/90">
-                    <button onclick="showTab('home')" class="nav-btn hover:text-sage transition-colors" data-tab="home">Home</button>
                     <button onclick="showTab('diensten')" class="nav-btn hover:text-sage transition-colors" data-tab="diensten">Wat is Budgetcoaching?</button>
                     <button onclick="showTab('over-mij')" class="nav-btn hover:text-sage transition-colors" data-tab="over-mij">Over Mij</button>
                     <button onclick="showTab('organisaties')" class="nav-btn hover:text-sage transition-colors" data-tab="organisaties">Voor Organisaties</button>
                     <button onclick="showTab('tarieven')" class="nav-btn hover:text-sage transition-colors" data-tab="tarieven">Tarieven</button>
                     <button onclick="showTab('faq')" class="nav-btn hover:text-sage transition-colors" data-tab="faq">FAQ</button>
                     <button onclick="showTab('contact')" class="nav-btn hover:text-sage transition-colors" data-tab="contact">Contact</button>
+                    <button onclick="showTab('print')" class="nav-btn hover:text-sage transition-colors" data-tab="print">Printbare brochure</button>
                 </nav>
 
                 <!-- Header Action CTA -->
@@ -120,13 +120,13 @@
 
         <!-- Mobile Menu Drawer -->
         <div id="mobileMenu" class="hidden lg:hidden bg-cream border-b border-sage/20 px-4 pt-2 pb-6 space-y-3 shadow-xl">
-            <button onclick="showTab('home'); toggleMobileMenu()" class="block w-full text-left py-2 px-3 rounded-lg text-base font-medium hover:bg-sage-light">Home</button>
             <button onclick="showTab('diensten'); toggleMobileMenu()" class="block w-full text-left py-2 px-3 rounded-lg text-base font-medium hover:bg-sage-light">Wat is Budgetcoaching?</button>
             <button onclick="showTab('over-mij'); toggleMobileMenu()" class="block w-full text-left py-2 px-3 rounded-lg text-base font-medium hover:bg-sage-light">Over Mij</button>
             <button onclick="showTab('organisaties'); toggleMobileMenu()" class="block w-full text-left py-2 px-3 rounded-lg text-base font-medium hover:bg-sage-light">Voor Organisaties</button>
             <button onclick="showTab('tarieven'); toggleMobileMenu()" class="block w-full text-left py-2 px-3 rounded-lg text-base font-medium hover:bg-sage-light">Tarieven</button>
             <button onclick="showTab('faq'); toggleMobileMenu()" class="block w-full text-left py-2 px-3 rounded-lg text-base font-medium hover:bg-sage-light">Veelgestelde Vragen</button>
             <button onclick="showTab('contact'); toggleMobileMenu()" class="block w-full text-left py-2 px-3 rounded-lg text-base font-medium hover:bg-sage-light">Contact</button>
+            <button onclick="showTab('print'); toggleMobileMenu()" class="block w-full text-left py-2 px-3 rounded-lg text-base font-medium hover:bg-sage-light">Printbare Brochure</button>
             <button onclick="openModal(); toggleMobileMenu()" class="w-full mt-2 bg-terracotta text-white py-3 rounded-xl font-semibold shadow text-center">
                 Gratis kennismakingsgesprek
             </button>
@@ -154,7 +154,7 @@
                             </h1>
 
                             <p class="text-lg text-charcoal-muted leading-relaxed max-w-2xl">
-                                Een praktisch en mensgericht coachingstraject op maat. Samen make we overzicht in je inkomsten en uitgaven, bouwen we aan financiële veerkracht en creëren we duurzame rust.
+                                Een praktisch en mensgericht coachingstraject. Samen make we overzicht in je inkomsten en uitgaven, bouwen we aan financiële veerkracht en creëren we duurzame rust.
                             </p>
 
                             <div class="flex flex-col sm:flex-row gap-4 pt-4">
@@ -416,7 +416,7 @@
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <div class="bg-white p-6 rounded-2xl shadow-sm">
                             <h4 class="font-serif text-xl font-bold text-charcoal mb-3 flex items-center gap-2">
-                                <i data-lucide="user" class="text-terracotta"></i> Voor Particulieren & Gezinnen
+                                <i data-lucide="user" class="text-terracotta"></i> Voor Particulieren
                             </h4>
                             <ul class="space-y-2 text-sm text-charcoal-muted">
                                 <li>• Bij verandering in het leven (allen gaan wonen, scheiding, overlijden, pensioen)</li>
@@ -579,7 +579,7 @@
                         <div class="text-terracotta font-bold text-xs uppercase tracking-widest mb-2">Module B</div>
                         <h3 class="font-serif text-2xl font-bold mb-3">Interactieve Workshops</h3>
                         <p class="text-sm text-charcoal-muted leading-relaxed">
-                            Sessies van 2 tot 3 uur over budgetteren, de (digitale) admin op orde krijgen, digitale financiële vaardigheden, sparen.
+                            Omgaan met (e-) administratie, Leren Budgetteren & Slim omgaan met geld.
                         </p>
                     </div>
 
@@ -657,8 +657,8 @@
                             </div>
 
                             <ul class="space-y-3 text-sm text-charcoal-muted border-t border-sage/10 pt-6 mb-8">
-                                <li class="flex items-center gap-2"><i data-lucide="check" class="text-terracotta w-4 h-4"></i> Workshops van 1,5 uur tot volle dagdelen</li>
-                                <li class="flex items-center gap-2"><i data-lucide="check" class="text-terracotta w-4 h-4"></i> Inclusief digitaal & fysiek werkcoaching materiaal</li>
+                                <li class="flex items-center gap-2"><i data-lucide="check" class="text-terracotta w-4 h-4"></i> Workshops van 2 uur à 3 uur</li>
+                                <li class="flex items-center gap-2"><i data-lucide="check" class="text-terracotta w-4 h-4"></i> Mogelijkheid tot het aanschaffen van digitaal en fysiek materiaal</li>
                                 <li class="flex items-center gap-2"><i data-lucide="check" class="text-terracotta w-4 h-4"></i> Opzet en moderatie van Geldcafé</li>
                                 <li class="flex items-center gap-2"><i data-lucide="check" class="text-terracotta w-4 h-4"></i> Meertalige documentatie beschikbaar</li>
                             </ul>
@@ -715,7 +715,7 @@
                             <i id="icon-faq-3" data-lucide="chevron-down" class="w-5 h-5 text-sage transform transition-transform"></i>
                         </button>
                         <div id="faq-3" class="hidden px-6 pb-6 text-charcoal-muted text-sm leading-relaxed border-t border-sage/5 pt-4">
-                            We beginnen steeds met een gratis telefonische of online intake van 30 minuten. Daarna plannen we afspraken in die bij jou passen: dit kan bij jou thuis, op een neutrale locatie of volledig online via videocall.
+                            We beginnen steeds met een gratis telefonische of online intake van 30 minuten. Daarna plannen we afspraken in die bij jou passen: dit kan online of op locatie.
                         </div>
                     </div>
 
@@ -782,8 +782,8 @@
                 </div>
                 <div>
                     <p class="font-semibold text-charcoal">Telefoon & WhatsApp</p>
-                    <a href="https://wa.me/32496452111" target="_blank" rel="noopener noreferrer" class="hover:text-terracotta transition-colors">
-                        +32 496 45 21 11
+                    <a href="https://wa.me/32492484937" target="_blank" rel="noopener noreferrer" class="hover:text-terracotta transition-colors">
+                        +32 492 48 49 37
                     </a>
                 </div>
             </div>
@@ -801,7 +801,7 @@
         <h3 class="font-serif text-2xl font-bold text-charcoal">Stuur direct een bericht</h3>
         
         <!-- Configurações do Web3Forms -->
-        <input type="hidden" name="access_key" value="SUA_ACCESS_KEY_AQUI">
+        <input type="hidden" name="access_key" value="93a5d8c1-8cc9-4128-a5ab-2d866ceb995a">
         <input type="hidden" name="subject" value="Nieuw bericht via het contactformulier">
         <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
@@ -843,13 +843,58 @@
         </button>
     </form>
 </div>
+</div>
+</section>
 
-                </div>
+<!-- TAB 8: Print -->
+<section id="tab-print" class="tab-content hidden py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Header da Seção -->
+        <div class="text-center max-w-3xl mx-auto mb-12">
+            <span class="badge-pill bg-terracotta-light text-terracotta mb-3">Printbare Brochure</span>
+            <h1 class="font-serif text-4xl sm:text-5xl font-bold text-charcoal mb-4">Informatiegids & Tarieven</h1>
+            <p class="text-lg text-charcoal-muted">
+                Download de brochure in PDF-formaat voor een overzicht van mijn diensten, tarieven en contactinformatie. Perfect om te delen of af te drukken.
+            </p>
+        </div>
 
+        <!-- Bloco do Cartão da Brochure -->
+        <div class="max-w-2xl mx-auto bg-white p-8 sm:p-10 rounded-3xl border border-sage/10 shadow-sm text-center space-y-6">
+            <div class="w-16 h-16 bg-sage-light text-sage-dark rounded-2xl flex items-center justify-center mx-auto">
+                <i data-lucide="file-text" class="w-8 h-8"></i>
             </div>
-        </section>
 
-    </main>
+            <div class="space-y-2">
+                <h3 class="font-serif text-2xl font-bold text-charcoal">Brochure Budgetcoach Eveline</h3>
+                <p class="text-sm text-charcoal-muted">PDF-document • Geoptimaliseerd voor A4-afdruk</p>
+            </div>
+
+            <!-- Botões de Ação -->
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+                <a href="assets/brochure-budgetcoach.pdf" 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   class="w-full sm:w-auto px-6 py-3.5 bg-terracotta hover:bg-terracotta-dark text-white rounded-xl font-semibold shadow-md transition-all text-sm flex items-center justify-center gap-2">
+                    <i data-lucide="printer" class="w-4 h-4"></i>
+                    <span>Bekijken & Afdrukken</span>
+                </a>
+
+                <a href="assets/brochure-budgetcoach.pdf" 
+                   download="Brochure-Budgetcoach-Eveline.pdf" 
+                   class="w-full sm:w-auto px-6 py-3.5 bg-sage-light text-sage-dark hover:bg-sage/20 rounded-xl font-semibold transition-all text-sm flex items-center justify-center gap-2">
+                    <i data-lucide="download" class="w-4 h-4"></i>
+                    <span>Direct Downloaden</span>
+                </a>
+            </div>
+
+            <p class="text-xs text-charcoal-muted pt-2 border-t border-sage/10">
+                Tip: Kies bij het afdrukken voor "Aanpassen aan pagina" (Fit to page) voor het beste resultaat.
+            </p>
+        </div>
+
+    </div>
+</section>
 
    <!-- Booking / Contact Modal -->
 <div id="bookingModal" class="fixed inset-0 bg-charcoal/60 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
@@ -866,7 +911,7 @@
 
         <form onsubmit="handleModalSubmit(event)" class="space-y-4">
             <!-- Configurações do Web3Forms -->
-            <input type="hidden" name="access_key" value="SUA_ACCESS_KEY_AQUI">
+            <input type="hidden" name="access_key" value="93a5d8c1-8cc9-4128-a5ab-2d866ceb995a">
             <input type="hidden" name="subject" value="Nieuwe aanvraag: Gratis Intakegesprek">
             <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
@@ -909,7 +954,7 @@
                     <p class="text-xs text-cream/70 leading-relaxed max-w-sm">
                         Ondersteuning voor particulieren, gezinnen en organisaties om financiële rust en overzicht te creëren op een menselijke manier.
                     </p>
-                    <p class="text-xs text-cream/50">BTW BE 0785.402.466 | Groot-Bijgaarden</p>
+                    <p class="text-xs text-cream/50">BTW BE 0785.402.466</p>
                 </div>
 
                 <div class="md:col-span-3 space-y-3 text-xs">
@@ -921,6 +966,7 @@
                         <li><button onclick="showTab('organisaties')" class="hover:text-cream">Voor Organisaties</button></li>
                         <li><button onclick="showTab('tarieven')" class="hover:text-cream">Tarieven</button></li>
                         <li><button onclick="showTab('faq')" class="hover:text-cream">Veelgestelde Vragen</button></li>
+                        <li><button onclick="showTab('print')" class="hover:text-cream">Printbare Brochure</button></li>
                     </ul>
                 </div>
 
